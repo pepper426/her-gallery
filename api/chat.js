@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  // 设置 CORS
+  // 设置允许跨域
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -13,49 +13,50 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { system, messages } = req.body;
+    const { system, messages = [] } = req.body;
+    const aiMessages = [];
 
-    // 把消息转换成 Gemini 格式
-    const geminiMessages = [];
-
-    // 系统提示词作为第一条
+    // 载入你的人设
     if (system) {
-      geminiMessages.push({
-        role: 'user',
-        parts: [{ text: '你的人设和规则如下，请严格遵守：\n\n' + system }]
-      });
-      geminiMessages.push({
-        role: 'model',
-        parts: [{ text: '我理解了，我会严格按照这个人设来回答。' }]
+      aiMessages.push({ 
+        role: 'system', 
+        content: '你的人设和规则如下，请严格遵守：\n\n' + system 
       });
     }
 
-    // 转换对话消息
+    // 载入聊天记录
     for (const msg of messages) {
-      geminiMessages.push({
-        role: msg.role === 'user' ? 'user' : 'model',
-        parts: [{ text: msg.content }]
+      aiMessages.push({
+        role: msg.role === 'user' ? 'user' : 'assistant',
+        content: msg.content
       });
     }
 
-    const apiKey = process.env.GEMINI_API_KEY;
-   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+    // 调用 DeepSeek
+    const apiKey = process.env.DEEPSEEK_API_KEY;
+    const url = 'https://api.deepseek.com/chat/completions';
+
     const response = await fetch(url, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json' 
+      },
       body: JSON.stringify({
-        contents: geminiMessages,
-        generationConfig: {
-          maxOutputTokens: 500,
-          temperature: 0.8,
-        },
+        model: 'deepseek-chat', 
+        messages: aiMessages,
+        temperature: 0.7
       }),
     });
 
     const data = await response.json();
+    
+    // 如果报错，直接把错误打印出来方便排查
+    if (data.error) {
+      return res.status(200).json({ content: [{ type: 'text', text: JSON.stringify(data.error) }] });
+    }
 
-    // 把 Gemini 的返回格式转换成前端期望的格式
-    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text || JSON.stringify(data);
+    const text = data.choices?.[0]?.message?.content || '抱歉，API没有返回内容。';
 
     res.status(200).json({
       content: [{ type: 'text', text: text }]
@@ -64,7 +65,7 @@ export default async function handler(req, res) {
   } catch (error) {
     console.error('API Error:', error);
     res.status(500).json({
-      content: [{ type: 'text', text: '抱歉，我刚才走神了。再说一次？' }]
+      content: [{ type: 'text', text: '后端网络抖动了，请重试。' }]
     });
   }
 }
