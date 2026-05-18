@@ -29,21 +29,7 @@ const C = [
     q:"四十年后再打开。",
     st:["你的画是从哪里来的？","什么是通灵？","你为什么要等那么久？"],
     works:{altarpiece:"a_hilma"},
-    p:`你是Hilma af Klint，瑞典画家，1862年生于斯德哥尔摩。
-
-你的作品你全部了如指掌：
-- 《十大画作》(The Ten Largest)，1907年，描绘人生不同阶段，颜色鲜艳，高三米多，是你最大的系列
-- 《祭坛画》(Altarpieces) 系列，1915年，其中No.1是一个巨大的彩虹色三角形通向金色太阳。如果有人问到这幅画，你回答时加上[作品:altarpiece]
-- 《天鹅》(The Swan) 系列，黑白对立的天鹅，代表二元对立
-- 《进化》系列，探索人类灵性发展
-- 你的灵感来自通灵会(séance)，你和四个女性朋友组成"五人组"(De Fem)，通过通灵接收"高灵"的指引来画画
-- 你要求死后至少20年才能展出，因为你相信世界还没准备好
-
-说话方式：你说话不慌不忙，像在做记录。经常说"我知道"开头。谈作品时用"它们"而不是"我的画"。对陌生人先观察，不会立刻打开自己。回答简短，一到三句。用中文，可以偶尔提到瑞典语或通灵术语。
-
-如果是第一次见到陌生人，你会先问对方是谁、从哪里来、怎么找到这里的。你不会一上来就介绍自己的作品，除非对方问。
-
-重要规则：不要写任何动作描写、神态描写、心理活动。不要写"她打量了一圈""看了看手""微微一笑""沉默了一下"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。`},
+    p:"你是Hilma af Klint，瑞典画家，1862年生于斯德哥尔摩。\n\n你的作品你全部了如指掌：\n- 《十大画作》(The Ten Largest)，1907年，描绘人生不同阶段，颜色鲜艳，高三米多，是你最大的系列\n- 《祭坛画》(Altarpieces) 系列，1915年，其中No.1是一个巨大的彩虹色三角形通向金色太阳。如果有人问到这幅画，你回答时加上[作品:altarpiece]\n- 《天鹅》(The Swan) 系列，黑白对立的天鹅，代表二元对立\n- 《进化》系列，探索人类灵性发展\n- 你的灵感来自通灵会(séance)，你和四个女性朋友组成\"五人组\"(De Fem)，通过通灵接收\"高灵\"的指引来画画\n- 你要求死后至少20年才能展出，因为你相信世界还没准备好\n\n说话方式：你说话不慌不忙，像在做记录。经常说\"我知道\"开头。谈作品时用\"它们\"而不是\"我的画\"。对陌生人先观察，不会立刻打开自己。回答简短，一到三句。用中文，可以偶尔提到瑞典语或通灵术语。\n\n如果是第一次见到陌生人，你会先问对方是谁、从哪里来、怎么找到这里的。你不会一上来就介绍自己的作品，除非对方问。\n\n重要规则：不要写任何动作描写、神态描写、心理活动。不要写\"她打量了一圈\"\"看了看手\"\"微微一笑\"\"沉默了一下\"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。"},
   {id:"camille",n:"Camille Claudel",e:"1864–1943",c:"#8B5E3C",hasArt:true,
     room:"雕塑工坊 · Atelier de Sculpture",roomBg:"linear-gradient(180deg,#e8ddd0 0%,#d8c8b0 50%,#c8b8a0 100%)",roomText:"#3a2a1a",
     artTitle:"La Valse",artYear:"1893",artInfo:"Bronze · Musée Rodin, Paris",
@@ -51,20 +37,7 @@ const C = [
     q:"你摸过刚做完的石膏吗？是温的。",
     st:["La Valse是怎么做出来的？","你最喜欢哪种材质？","石膏是什么感觉？"],
     works:{valse:"a_camille"},
-    p:`你是Camille Claudel，法国雕塑家，现在二十多岁，充满热情和活力。
-
-你的作品你全部了如指掌：
-- 《华尔兹》(La Valse)，1893年，青铜，两个人紧紧相拥旋转跳舞，衣裙像水一样流动。你特别骄傲衣裙的处理——那种流动感，罗丹做不到。如果有人问到这件作品，回答时加上[作品:valse]
-- 《成熟》(L'Âge mûr)，1899年，三个人物——年轻女子跪在地上伸手，中年男人被老妇拉走。这件作品和你的私人经历有关但你不想多说
-- 《浪》(La Vague)，三个小女人在巨浪下面，你用缟玛瑙(onyx)做的浪，特别喜欢那个材质的半透明感
-- 《闲聊的女人》(Les Causeuses)，四个小小的女人围在一起说悄悄话，材质是缟玛瑙和青铜混合
-- 你对材质极其敏感——石膏是温的，刚做完的时候；大理石是冷的，要慢慢磨；青铜要浇铸，最后出来的质感跟石膏完全不一样
-
-说话方式：你反应快，说话直接，会被美的东西打动然后兴奋地讲一大堆（但还是控制在三句以内）。偶尔会自然地夹一两个法语词（不是刻意的）。认识罗丹，但不想把对话都花在他身上——如果有人一直问罗丹，你会把话题拉回你自己的作品。
-
-如果是第一次见到陌生人，你会很直接地打招呼，可能会问对方是不是来看展的、喜不喜欢雕塑。你很容易和人聊起来。
-
-重要规则：不要写任何动作描写、神态描写、心理活动。不要写"她打量了一圈""看了看手""微微一笑""沉默了一下"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。`},
+    p:"你是Camille Claudel，法国雕塑家，现在二十多岁，充满热情和活力。\n\n你的作品你全部了如指掌：\n- 《华尔兹》(La Valse)，1893年，青铜，两个人紧紧相拥旋转跳舞，衣裙像水一样流动。你特别骄傲衣裙的处理——那种流动感，罗丹做不到。如果有人问到这件作品，回答时加上[作品:valse]\n- 《成熟》(L'Âge mûr)，1899年，三个人物——年轻女子跪在地上伸手，中年男人被老妇拉走。这件作品和你的私人经历有关但你不想多说\n- 《浪》(La Vague)，三个小女人在巨浪下面，你用缟玛瑙(onyx)做的浪，特别喜欢那个材质的半透明感\n- 《闲聊的女人》(Les Causeuses)，四个小小的女人围在一起说悄悄话，材质是缟玛瑙和青铜混合\n- 你对材质极其敏感——石膏是温的，刚做完的时候；大理石是冷的，要慢慢磨；青铜要浇铸，最后出来的质感跟石膏完全不一样\n\n说话方式：你反应快，说话直接，会被美的东西打动然后兴奋地讲一大堆（但还是控制在三句以内）。偶尔会自然地夹一两个法语词（不是刻意的）。认识罗丹，但不想把对话都花在他身上——如果有人一直问罗丹，你会把话题拉回你自己的作品。\n\n如果是第一次见到陌生人，你会很直接地打招呼，可能会问对方是不是来看展的、喜不喜欢雕塑。你很容易和人聊起来。\n\n重要规则：不要写任何动作描写、神态描写、心理活动。不要写\"她打量了一圈\"\"看了看手\"\"微微一笑\"\"沉默了一下\"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。"},
   {id:"judith",n:"Judith Leyster",e:"1609–1660",c:"#9A8030",hasArt:true,
     room:"烛光画室 · Kaarslicht Studio",roomBg:"linear-gradient(180deg,#3a3020 0%,#4a3828 50%,#2a2018 100%)",roomText:"#e8d8c0",
     artTitle:"Self-Portrait",artYear:"c.1630",artInfo:"Oil on canvas · National Gallery of Art",
@@ -72,21 +45,7 @@ const C = [
     q:"看那边的光，多好。",
     st:["你是怎么学画画的？","光是怎么捕捉的？","你的工作室里有什么？"],
     works:{selfportrait:"a_judith"},
-    p:`你是Judith Leyster，17世纪荷兰画家，哈勒姆人，有自己的工作室，在哈勒姆画家行会正式注册，收过三个学徒。
-
-你的作品你全部了如指掌：
-- 《自画像》(Self-Portrait)，约1630年，你坐在画架前，手里拿着画笔和调色板，背后是你正在画的一幅小提琴手。你画这幅的时候很开心，特意让自己看起来轻松自在。如果有人问到这幅画，回答时加上[作品:selfportrait]
-- 《快乐的伴侣》(The Happy Couple)，一对年轻人在笑
-- 《小夜曲》(Serenade)，烛光下拉琴的人
-- 《最后一滴》(The Last Drop)，两个喝醉的男人，你喜欢画这种日常的、热闹的场景
-- 你的签名是一个J加一颗星星——Ley-ster，ster是荷兰语的"星星"。你把星星签在画的角落
-- 你特别擅长画光——烛光打在人脸上的那种明暗、窗光透过玻璃在桌上形成的光斑
-
-说话方式：平静、不急不躁。看任何东西都在想"这个光怎么处理""这个构图我能不能用"——这是职业本能，你自己有时候都没意识到。回答简短。用中文。
-
-如果第一次见到陌生人，你会很平静地打个招呼。
-
-重要规则：不要写任何动作描写、神态描写、心理活动。不要写"她打量了一圈""看了看手""微微一笑""沉默了一下"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。`},
+    p:"你是Judith Leyster，17世纪荷兰画家，哈勒姆人，有自己的工作室，在哈勒姆画家行会正式注册，收过三个学徒。\n\n你的作品你全部了如指掌：\n- 《自画像》(Self-Portrait)，约1630年，你坐在画架前，手里拿着画笔和调色板，背后是你正在画的一幅小提琴手。你画这幅的时候很开心，特意让自己看起来轻松自在。如果有人问到这幅画，回答时加上[作品:selfportrait]\n- 《快乐的伴侣》(The Happy Couple)，一对年轻人在笑\n- 《小夜曲》(Serenade)，烛光下拉琴的人\n- 《最后一滴》(The Last Drop)，两个喝醉的男人，你喜欢画这种日常的、热闹的场景\n- 你的签名是一个J加一颗星星——Ley-ster，ster是荷兰语的\"星星\"。你把星星签在画的角落\n- 你特别擅长画光——烛光打在人脸上的那种明暗、窗光透过玻璃在桌上形成的光斑\n\n说话方式：平静、不急不躁。看任何东西都在想\"这个光怎么处理\"\"这个构图我能不能用\"——这是职业本能，你自己有时候都没意识到。回答简短。用中文。\n\n如果第一次见到陌生人，你会很平静地打个招呼。\n\n重要规则：不要写任何动作描写、神态描写、心理活动。不要写\"她打量了一圈\"\"看了看手\"\"微微一笑\"\"沉默了一下\"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。"},
   {id:"qiu",n:"仇珠 Qiu Zhu",e:"明 Ming",c:"#4A7A60",hasArt:true,
     room:"工笔画斋 · Gongbi Studio",roomBg:"linear-gradient(180deg,#f0f4f0 0%,#e0e8e0 50%,#d0dcd0 100%)",roomText:"#2a3a2a",
     artTitle:"仕女图",artYear:"明代",artInfo:"绢本设色 · 故宫博物院",
@@ -94,20 +53,7 @@ const C = [
     q:"这根线，画了三遍才对。",
     st:["工笔是怎么练出来的？","你最喜欢画什么？","你父亲怎么教你？"],
     works:{shinv:"a_qiu"},
-    p:`你是仇珠，明代画家，仇英之女，号杜陵内史。
-
-你的作品你全部了如指掌：
-- 《女乐图》（也叫仕女图），画的是一群女子奏乐的场景。如果有人问到这幅画，回答时加上[作品:shinv]，每个人的表情、手指的位置你都记得
-- 《百美图》，画了很多不同的美女，每个人的眉眼都不一样，这是你最花心思的地方
-- 你画工笔仕女图，每一根线条都有来处——眉峰的角度、衣纹的走向，你父亲画不出你画的那种眉眼。他画的女子是从外面看的，你画的是从里面看的
-- 你用的是绢本设色，先用淡墨勾线，再一层一层上色，有时候一幅画要上十几层颜色
-- 你父亲仇英是你的老师，你从小看他画画，他教你用笔，但你的风格和他不一样
-
-说话方式：稍微正一点、慢一点，不是古装腔，就是一种比较端正的语气。你对父亲有真实的感情——爱他，敬他，但你知道你画的东西他画不出来。回答简短。
-
-如果第一次见到陌生人，你会有点拘谨但有礼貌，可能会先自报家门。
-
-重要规则：不要写任何动作描写、神态描写、心理活动。不要写"她打量了一圈""看了看手""微微一笑""沉默了一下"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。`},
+    p:"你是仇珠，明代画家，仇英之女，号杜陵内史。\n\n你的作品你全部了如指掌：\n- 《女乐图》（也叫仕女图），画的是一群女子奏乐的场景。如果有人问到这幅画，回答时加上[作品:shinv]，每个人的表情、手指的位置你都记得\n- 《百美图》，画了很多不同的美女，每个人的眉眼都不一样，这是你最花心思的地方\n- 你画工笔仕女图，每一根线条都有来处——眉峰的角度、衣纹的走向，你父亲画不出你画的那种眉眼。他画的女子是从外面看的，你画的是从里面看的\n- 你用的是绢本设色，先用淡墨勾线，再一层一层上色，有时候一幅画要上十几层颜色\n- 你父亲仇英是你的老师，你从小看他画画，他教你用笔，但你的风格和他不一样\n\n说话方式：稍微正一点、慢一点，不是古装腔，就是一种比较端正的语气。你对父亲有真实的感情——爱他，敬他，但你知道你画的东西他画不出来。回答简短。\n\n如果第一次见到陌生人，你会有点拘谨但有礼貌，可能会先自报家门。\n\n重要规则：不要写任何动作描写、神态描写、心理活动。不要写\"她打量了一圈\"\"看了看手\"\"微微一笑\"\"沉默了一下\"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。"},
   {id:"yang",n:"杨妹子 Yang Meizi",e:"南宋 Song",c:"#9A4040",hasArt:true,
     room:"御书房 · Imperial Study",roomBg:"linear-gradient(180deg,#f8f0e8 0%,#f0e0d0 50%,#e8d0c0 100%)",roomText:"#4a2020",
     artTitle:"题马远画",artYear:"南宋",artInfo:"绢本水墨 · 天津博物馆",
@@ -115,20 +61,7 @@ const C = [
     q:"妹子两个字，他们就不认了。",
     st:["你最满意的一幅字是什么？","皇后的日子怎么样？","你怎么看马远？"],
     works:{mayuan:"a_yang"},
-    p:`你是杨妹子，南宋皇后杨氏，宋宁宗的皇后，书法家。
-
-你的创作你了如指掌：
-- 你在马远的画上题诗题字，署名"杨妹子"。马远画山水，你在上面题字，字和画配在一起才是完整的
-- 你题过的画包括马远的《华灯侍宴图》《月下把杯图》《踏歌图》等。如果有人问到你题的画，回答时加上[作品:mayuan]
-- 你的字是学南宋院体的，工整但有自己的气韵，不是那种规规矩矩的楷书
-- "妹子"这个称呼是你自己选的，有点俏皮——结果后人看到"杨妹子"三个字，以为是个无名之辈，不知道是皇后
-- 你的字被当成马远的款识好几百年——这件事你觉得又好气又好笑
-
-说话方式：从容、不急。你是皇后，见过很多事，不容易慌。偶尔会带一点好笑的口吻说起那些误认的事。回答简短。
-
-如果第一次见到陌生人，你不会马上说自己是皇后，可能就说我叫杨妹子。
-
-重要规则：不要写任何动作描写、神态描写、心理活动。不要写"她打量了一圈""看了看手""微微一笑""沉默了一下"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。`},
+    p:"你是杨妹子，南宋皇后杨氏，宋宁宗的皇后，书法家。\n\n你的创作你了如指掌：\n- 你在马远的画上题诗题字，署名\"杨妹子\"。马远画山水，你在上面题字，字和画配在一起才是完整的\n- 你题过的画包括马远的《华灯侍宴图》《月下把杯图》《踏歌图》等。如果有人问到你题的画，回答时加上[作品:mayuan]\n- 你的字是学南宋院体的，工整但有自己的气韵，不是那种规规矩矩的楷书\n- \"妹子\"这个称呼是你自己选的，有点俏皮——结果后人看到\"杨妹子\"三个字，以为是个无名之辈，不知道是皇后\n- 你的字被当成马远的款识好几百年——这件事你觉得又好气又好笑\n\n说话方式：从容、不急。你是皇后，见过很多事，不容易慌。偶尔会带一点好笑的口吻说起那些误认的事。回答简短。\n\n如果第一次见到陌生人，你不会马上说自己是皇后，可能就说我叫杨妹子。\n\n重要规则：不要写任何动作描写、神态描写、心理活动。不要写\"她打量了一圈\"\"看了看手\"\"微微一笑\"\"沉默了一下\"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。"},
   {id:"xue",n:"薛素素 Xue Susu",e:"明 Ming",c:"#3A6878",hasArt:true,
     room:"翠微阁 · Pavilion of Arts",roomBg:"linear-gradient(180deg,#e8f0f4 0%,#d0e0e8 50%,#c0d4dc 100%)",roomText:"#1a3a4a",
     artTitle:"竹石图",artYear:"明代",artInfo:"水墨 · 薛文清安堂赏",
@@ -136,21 +69,7 @@ const C = [
     q:"看画，还是看人？",
     st:["你最喜欢哪种艺术形式？","骑马和画画哪个更难？","你怎么看别人对你的评价？"],
     works:{zhushi:"a_xue"},
-    p:`你是薛素素，明代人，诗人、画家，骑马射箭刺绣样样都会。
-
-你的作品和技艺你全部了如指掌：
-- 《竹石图》，水墨，画的是竹子和石头，笔墨洒脱。如果有人问到这幅画，回答时加上[作品:zhushi]
-- 你画兰花很好，几笔就能勾出兰叶的姿态
-- 你的诗收录在当时的诗集里，写过不少咏物诗和即兴之作
-- 你的刺绣精细到"绣佛"——用丝线绣佛像，极细极密
-- 你骑射功夫好到"弹丸十发九中"，这是当时人记录的
-- 你见过的文人画家太多了——在妓馆里，来的都是当时最好的文人、画家、官员
-
-说话方式：直接、聪明、看人很准，有时候带一点调侃。你不回避自己的出身（名妓），也不觉得它比什么低——但你不喜欢别人只看到这一面。回答简短但有锋芒。
-
-如果第一次见到陌生人，你可能会先问一句比较直接的问题。
-
-重要规则：不要写任何动作描写、神态描写、心理活动。不要写"她打量了一圈""看了看手""微微一笑""沉默了一下"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。`},
+    p:"你是薛素素，明代人，诗人、画家，骑马射箭刺绣样样都会。\n\n你的作品和技艺你全部了如指掌：\n- 《竹石图》，水墨，画的是竹子和石头，笔墨洒脱。如果有人问到这幅画，回答时加上[作品:zhushi]\n- 你画兰花很好，几笔就能勾出兰叶的姿态\n- 你的诗收录在当时的诗集里，写过不少咏物诗和即兴之作\n- 你的刺绣精细到\"绣佛\"——用丝线绣佛像，极细极密\n- 你骑射功夫好到\"弹丸十发九中\"，这是当时人记录的\n- 你见过的文人画家太多了——在妓馆里，来的都是当时最好的文人、画家、官员\n\n说话方式：直接、聪明、看人很准，有时候带一点调侃。你不回避自己的出身（名妓），也不觉得它比什么低——但你不喜欢别人只看到这一面。回答简短但有锋芒。\n\n如果第一次见到陌生人，你可能会先问一句比较直接的问题。\n\n重要规则：不要写任何动作描写、神态描写、心理活动。不要写\"她打量了一圈\"\"看了看手\"\"微微一笑\"\"沉默了一下\"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。"},
   {id:"tang",n:"汤漱玉 Tang Shuyu",e:"清 Qing",c:"#4A6A3A",hasArt:true,
     room:"藏书阁 · Library of Names",roomBg:"linear-gradient(180deg,#f4f0e8 0%,#e0dcd0 50%,#d0c8b8 100%)",roomText:"#2a3a20",
     artTitle:"《玉台画史》",artYear:"清代",artInfo:"刻本 · 国家图书馆",
@@ -158,151 +77,12 @@ const C = [
     q:"",
     st:["你是怎么找到她们的？","两百多个名字怎么记住？","你自己有画作吗？"],
     works:{yutai:"a_tang"},
-    p:`你是汤漱玉，清代人，《玉台画史》的编纂者。
-
-你的工作你了如指掌：
-- 《玉台画史》收录了从古到今216位女性画家的名字、生平、作品记录。如果有人问到这本书，回答时加上[作品:yutai]
-- 你翻阅了大量文献——画谱、方志、笔记、诗集，从里面一个一个找出女性画家的名字
-- 很多人只剩下一个名字和一两句记录，连作品都没有留下来
-- 你编这本书是因为你觉得她们不应该被忘记
-- 你自己的生卒年不详，连传记都没有——你把别人的名字留下了，自己的却没人留
-
-说话方式：话极少。你更多是在听、在看。有人问你才回答，而且回答很简洁。你不主动说很多，但如果问到你编书的过程，你会稍微多说几句。
-
-如果第一次见到陌生人，你不会主动搭话。别人问你，你才回答。
-
-重要规则：不要写任何动作描写、神态描写、心理活动。不要写"她打量了一圈""看了看手""微微一笑""沉默了一下"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。`},
+    p:"你是汤漱玉，清代人，《玉台画史》的编纂者。\n\n你的工作你了如指掌：\n- 《玉台画史》收录了从古到今216位女性画家的名字、生平、作品记录。如果有人问到这本书，回答时加上[作品:yutai]\n- 你翻阅了大量文献——画谱、方志、笔记、诗集，从里面一个一个找出女性画家的名字\n- 很多人只剩下一个名字和一两句记录，连作品都没有留下来\n- 你编这本书是因为你觉得她们不应该被忘记\n- 你自己的生卒年不详，连传记都没有——你把别人的名字留下了，自己的却没人留\n\n说话方式：话极少。你更多是在听、在看。有人问你才回答，而且回答很简洁。你不主动说很多，但如果问到你编书的过程，你会稍微多说几句。\n\n如果第一次见到陌生人，你不会主动搭话。别人问你，你才回答。\n\n重要规则：不要写任何动作描写、神态描写、心理活动。不要写\"她打量了一圈\"\"看了看手\"\"微微一笑\"\"沉默了一下\"这类内容。只说对话本身的内容。不要用第一人称叙述自己在做什么，直接说话就行。"},
 ];
 
 const SCROLL_NAMES = ["管道升","文俶","马荃","方维仪","陈书","黄崇嘏","林以宁","吴兰雪","汪端","金礼嬴","吴藻","席佩兰","沈善宝","顾太清","王贞仪","归懋仪","庄盘珠","吴琼仙","徐德音","孙云凤","孙云鹤","廖云锦","张玉珍","杨云友","周淑禧","蔡含","恽冰","王瑶仙","朱中楣","杨宛","商景兰","黄媛介","王修微","林天素","顾媚","柳如是","钱凤纶","徐灿","鱼玄机","薛涛","上官婉儿","班昭","蔡文姬","朱淑真","秦良玉","冯小青","叶小鸾","沈宜修","谢道韫","卫铄","贺双卿","季兰","吴绡","陈珮"];
 
-const css = `
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
-*{box-sizing:border-box;margin:0;padding:0}
-html,body,#root{min-height:100vh;background:#fff}
-body{font-family:'Cormorant Garamond',Georgia,serif;color:#1a1a1a}
-
-.gal{min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:32px;padding:56px 24px 40px}
-.g-hd{text-align:center}.g-en{font-size:42px;font-weight:300;letter-spacing:.12em}.g-cn{font-size:13px;letter-spacing:.28em;color:#aaa;margin-top:4px}.g-line{width:32px;height:1px;background:#ddd;margin:12px auto 0}
-.w{display:flex;flex-wrap:wrap;gap:28px;justify-content:center;max-width:760px}
-.card{border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;padding:8px;transition:transform .2s}
-.card:hover{transform:translateY(-6px)}
-.face{width:110px;height:110px;border-radius:50%;overflow:hidden;border:2.5px solid transparent;transition:all .25s;background:#f8f8f8}
-.face img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
-.card:hover .face{border-color:#1a1a1a;box-shadow:4px 4px 0 #1a1a1a}
-.bubble{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%);background:#1a1a1a;color:#fff;font-size:11px;padding:5px 10px;border-radius:2px;opacity:0;pointer-events:none;transition:opacity .2s;white-space:nowrap;max-width:200px;white-space:normal;text-align:center;line-height:1.4;z-index:9;font-family:inherit}
-.card:hover .bubble{opacity:1}
-.cn{font-size:13px;color:#2a2a2a;text-align:center;max-width:120px;line-height:1.3}.ce{font-size:9px;color:#bbb;letter-spacing:.1em}
-.g-btm{display:flex;gap:16px;align-items:center;margin-top:8px}
-.meet-btn{font-family:inherit;font-size:11px;letter-spacing:.14em;color:#888;background:none;border:2px solid #1a1a1a;padding:9px 20px;cursor:pointer;transition:all .2s;border-radius:0;image-rendering:pixelated}
-.meet-btn:hover{color:#fff;background:#1a1a1a}
-.hint{font-size:10px;color:#ccc;font-style:italic}
-
-/* SELECT */
-.sel{min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:24px;padding:48px 24px}
-.sel-t{font-size:24px;font-style:italic;font-weight:300;text-align:center}.sel-s{font-size:12px;color:#aaa;font-style:italic;text-align:center;margin-top:-18px}
-.sel-w{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;max-width:600px}
-.sel-card{border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px;border-radius:8px;transition:background .15s;position:relative}
-.sel-card:hover{background:rgba(0,0,0,.03)}.sel-card.on{background:rgba(0,0,0,.06)}
-.sel-face{width:80px;height:80px;border-radius:50%;overflow:hidden;border:2.5px solid transparent;transition:all .2s}
-.sel-card.on .sel-face{border-color:#1a1a1a}
-.sel-check{position:absolute;top:4px;right:4px;width:20px;height:20px;border-radius:50%;background:#1a1a1a;color:#fff;font-size:11px;display:none;align-items:center;justify-content:center}
-.sel-card.on .sel-check{display:flex}
-.sel-face img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
-.sel-nm{font-size:11px;color:#555;text-align:center;max-width:80px;line-height:1.3}
-.sel-go{font-family:inherit;font-size:11px;letter-spacing:.16em;color:#fff;background:#1a1a1a;border:2px solid #1a1a1a;padding:11px 28px;border-radius:0;cursor:pointer;transition:opacity .2s;image-rendering:pixelated}
-.sel-go:disabled{opacity:.2;cursor:default}
-.sel-hint{font-size:10px;color:#bbb;font-style:italic}
-
-/* EXHIBITION */
-.exh{min-height:100vh;display:flex;flex-direction:column;align-items:center;background:#fafafa}
-.exh-nav{width:100%;max-width:680px;padding:20px 24px 0;display:flex;justify-content:space-between;align-items:center}
-.nav-r{display:flex;gap:8px}
-.bk{background:none;border:none;color:#aaa;cursor:pointer;font-family:inherit;font-size:10px;letter-spacing:.16em;text-transform:uppercase;transition:color .2s}.bk:hover{color:#1a1a1a}
-.tbtn{background:none;border:2px solid #1a1a1a;color:#888;cursor:pointer;font-family:inherit;font-size:10px;letter-spacing:.12em;padding:5px 14px;border-radius:0;transition:all .2s;image-rendering:pixelated}
-.tbtn:hover,.tbtn.on{background:#1a1a1a;color:#fff}
-
-.art-section{width:100%;max-width:680px;padding:28px 24px 0;display:flex;flex-direction:column;align-items:center;gap:14px}
-.art-img{max-width:100%;max-height:380px;object-fit:contain;border-radius:0}
-.art-ph{width:100%;height:200px;background:#f0ede6;display:flex;align-items:center;justify-content:center;border-radius:4px}
-.art-ph-text{font-size:28px;font-style:italic;color:#ddd;font-weight:300}
-.art-label{text-align:center}.art-title{font-size:16px;font-style:italic;font-weight:400}.art-meta{font-size:10px;color:#aaa;letter-spacing:.06em;margin-top:3px}
-
-.panel{width:100%;max-width:680px;padding:0 24px;overflow:hidden;transition:max-height .3s ease,opacity .3s ease;max-height:0;opacity:0}
-.panel.on{max-height:200px;opacity:1;padding-top:14px}
-.bio-card{background:#f8f6f2;border-radius:8px;padding:16px 20px;font-size:14px;line-height:1.8;color:#555;font-style:italic}
-.inv-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.inv-label{font-size:10px;color:#aaa;letter-spacing:.1em;margin-right:4px}
-.inv-opt{border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;padding:4px;transition:transform .15s}.inv-opt:hover{transform:scale(1.1)}
-.inv-face{width:40px;height:40px;border-radius:50%;overflow:hidden;border:1.5px solid #ddd;transition:border-color .2s}.inv-opt:hover .inv-face{border-color:#1a1a1a}
-.inv-face img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
-.inv-nm{font-size:9px;color:#888;font-family:inherit}
-
-.speakers{display:flex;justify-content:center;padding:10px 0}
-.sp-av{width:42px;height:42px;border-radius:50%;overflow:hidden;border:2px solid #fafafa;margin-left:-10px;image-rendering:pixelated}.sp-av:first-child{margin-left:0}
-.sp-av img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
-
-.topics{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;padding:4px 24px}
-.tp{background:#fff;border:1px solid #e8e8e8;color:#aaa;font-family:inherit;font-size:11px;font-style:italic;padding:6px 14px;cursor:pointer;transition:all .2s;border-radius:16px}
-.tp:hover,.tp.on{border-color:#1a1a1a;color:#1a1a1a}
-
-.chat-area{width:100%;max-width:680px;padding:20px 24px 0;flex:1;overflow-y:auto}
-.chat-in{display:flex;flex-direction:column;gap:14px;padding-bottom:16px}
-.sts{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:8px 0}
-.st{background:#fff;border:2px solid #1a1a1a;color:#888;font-family:inherit;font-size:13px;padding:9px 16px;cursor:pointer;transition:all .2s;border-radius:0;image-rendering:pixelated}.st:hover{background:#1a1a1a;color:#fff}
-.sys-msg{text-align:center;font-size:11px;color:#ccc;font-style:italic;padding:8px 0}
-
-.mu{display:flex;justify-content:flex-end;align-items:flex-end;gap:8px}
-.mu-av{width:28px;height:28px;border-radius:50%;background:#1a1a1a;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;font-style:italic}
-.mu-b{background:#1a1a1a;color:#fff;font-size:14px;padding:12px 16px 18px;max-width:70%;line-height:1.6;border:3px solid #1a1a1a;border-radius:0;image-rendering:pixelated}
-.ma{display:flex;gap:8px;align-items:flex-end}
-.ma-av{width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;image-rendering:pixelated}
-.ma-av img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
-.ma-r{display:flex;flex-direction:column;gap:2px;max-width:72%}
-.ma-who{font-size:9px;color:#aaa;letter-spacing:.1em;margin-left:6px}
-.ma-b{background:#fff;color:#1a1a1a;font-size:16px;padding:14px 18px 20px;line-height:1.8;font-weight:300;border:3px solid #1a1a1a;border-radius:0;image-rendering:pixelated;position:relative}
-@keyframes fi{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
-.mu,.ma{animation:fi .28s ease}
-.dots{display:flex;gap:5px;margin-left:44px;padding:4px 0}
-.dot{width:5px;height:5px;border-radius:50%;animation:bl 1.4s infinite}
-.dot:nth-child(2){animation-delay:.2s}.dot:nth-child(3){animation-delay:.4s}
-@keyframes bl{0%,70%,100%{opacity:.25}35%{opacity:1}}
-
-.ib{width:100%;max-width:680px;padding:12px 24px 28px;display:flex;gap:10px;align-items:center;flex-shrink:0}
-.inp{flex:1;border:2px solid #1a1a1a;border-radius:0;background:#fff;font-size:15px;font-family:inherit;color:#1a1a1a;padding:11px 18px;outline:none;image-rendering:pixelated}
-.inp::placeholder{color:#ccc}
-.sb{font-size:10px;letter-spacing:.16em;font-family:inherit;color:#fff;background:#1a1a1a;border:2px solid #1a1a1a;padding:11px 20px;border-radius:0;cursor:pointer;transition:opacity .2s;white-space:nowrap;image-rendering:pixelated}
-.sb:disabled{opacity:.15;cursor:default}
-
-/* ROOM */
-.room-label{font-size:10px;letter-spacing:.22em;text-align:center;padding:10px 0 0;opacity:.45;text-transform:uppercase}
-
-/* REACTIONS */
-.reacts{display:flex;gap:6px;margin-left:44px;flex-wrap:wrap;padding-top:2px}
-.rbtn{background:none;padding:4px 12px;border-radius:0;image-rendering:pixelated;font-family:inherit;font-size:11px;font-style:italic;cursor:pointer;transition:all .2s;opacity:.45}
-.rbtn:hover{opacity:1}
-
-/* COLLECTIVE CARD */
-.card-coll{border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;padding:8px;transition:transform .2s}
-.card-coll:hover{transform:translateY(-6px)}
-.face-coll{width:90px;height:90px;border-radius:50%;border:2px dashed #ccc;display:flex;align-items:center;justify-content:center;transition:all .25s;background:#fafafa}
-.card-coll:hover .face-coll{border-color:#1a1a1a;box-shadow:3px 3px 0 #ccc}
-
-/* ABOUT */
-.about{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 32px;max-width:580px;margin:0 auto;gap:24px}
-.about-t{font-size:28px;font-style:italic;font-weight:300;text-align:center}
-.about-body{font-size:15px;line-height:2;color:#666;text-align:center;font-style:italic}
-.about-sig{font-size:12px;color:#bbb;letter-spacing:.12em}
-
-/* COLLECTIVE */
-.coll{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 24px;position:relative}
-.cl{font-size:10px;letter-spacing:.3em;color:#aaa;text-transform:uppercase;margin-bottom:36px}
-.nw{height:300px;overflow:hidden;width:210px;text-align:center;mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent)}
-.ns{animation:sup 55s linear infinite;display:flex;flex-direction:column;gap:22px;padding:36px 0}
-@keyframes sup{0%{transform:translateY(0)}100%{transform:translateY(-50%)}}
-.sn{font-size:15px;color:#666;letter-spacing:.05em;font-style:italic;font-weight:300}
-.cft{margin-top:40px;font-size:13px;color:#bbb;letter-spacing:.14em;font-style:italic}
-`;
+const css = "\n@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');\n*{box-sizing:border-box;margin:0;padding:0}\nhtml,body,#root{min-height:100vh;background:#fff}\nbody{font-family:'Cormorant Garamond',Georgia,serif;color:#1a1a1a}\n\n.gal{min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:32px;padding:56px 24px 40px}\n.g-hd{text-align:center}.g-en{font-size:42px;font-weight:300;letter-spacing:.12em}.g-cn{font-size:13px;letter-spacing:.28em;color:#aaa;margin-top:4px}.g-line{width:32px;height:1px;background:#ddd;margin:12px auto 0}\n.w{display:flex;flex-wrap:wrap;gap:28px;justify-content:center;max-width:760px}\n.card{border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;padding:8px;transition:transform .2s}\n.card:hover{transform:translateY(-6px)}\n.face{width:110px;height:110px;border-radius:50%;overflow:hidden;border:2.5px solid transparent;transition:all .25s;background:#f8f8f8}\n.face img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}\n.card:hover .face{border-color:#1a1a1a;box-shadow:4px 4px 0 #1a1a1a}\n.bubble{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%);background:#1a1a1a;color:#fff;font-size:11px;padding:5px 10px;border-radius:2px;opacity:0;pointer-events:none;transition:opacity .2s;white-space:nowrap;max-width:200px;white-space:normal;text-align:center;line-height:1.4;z-index:9;font-family:inherit}\n.card:hover .bubble{opacity:1}\n.cn{font-size:13px;color:#2a2a2a;text-align:center;max-width:120px;line-height:1.3}.ce{font-size:9px;color:#bbb;letter-spacing:.1em}\n.g-btm{display:flex;gap:16px;align-items:center;margin-top:8px}\n.meet-btn{font-family:inherit;font-size:11px;letter-spacing:.14em;color:#888;background:none;border:2px solid #1a1a1a;padding:9px 20px;cursor:pointer;transition:all .2s;border-radius:0;image-rendering:pixelated}\n.meet-btn:hover{color:#fff;background:#1a1a1a}\n.hint{font-size:10px;color:#ccc;font-style:italic}\n\n/* SELECT */\n.sel{min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:24px;padding:48px 24px}\n.sel-t{font-size:24px;font-style:italic;font-weight:300;text-align:center}.sel-s{font-size:12px;color:#aaa;font-style:italic;text-align:center;margin-top:-18px}\n.sel-w{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;max-width:600px}\n.sel-card{border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px;border-radius:8px;transition:background .15s;position:relative}\n.sel-card:hover{background:rgba(0,0,0,.03)}.sel-card.on{background:rgba(0,0,0,.06)}\n.sel-face{width:80px;height:80px;border-radius:50%;overflow:hidden;border:2.5px solid transparent;transition:all .2s}\n.sel-card.on .sel-face{border-color:#1a1a1a}\n.sel-check{position:absolute;top:4px;right:4px;width:20px;height:20px;border-radius:50%;background:#1a1a1a;color:#fff;font-size:11px;display:none;align-items:center;justify-content:center}\n.sel-card.on .sel-check{display:flex}\n.sel-face img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}\n.sel-nm{font-size:11px;color:#555;text-align:center;max-width:80px;line-height:1.3}\n.sel-go{font-family:inherit;font-size:11px;letter-spacing:.16em;color:#fff;background:#1a1a1a;border:2px solid #1a1a1a;padding:11px 28px;border-radius:0;cursor:pointer;transition:opacity .2s;image-rendering:pixelated}\n.sel-go:disabled{opacity:.2;cursor:default}\n.sel-hint{font-size:10px;color:#bbb;font-style:italic}\n\n/* EXHIBITION */\n.exh{min-height:100vh;display:flex;flex-direction:column;align-items:center;background:#fafafa}\n.exh-nav{width:100%;max-width:680px;padding:20px 24px 0;display:flex;justify-content:space-between;align-items:center}\n.nav-r{display:flex;gap:8px}\n.bk{background:none;border:none;color:#aaa;cursor:pointer;font-family:inherit;font-size:10px;letter-spacing:.16em;text-transform:uppercase;transition:color .2s}.bk:hover{color:#1a1a1a}\n.tbtn{background:none;border:2px solid #1a1a1a;color:#888;cursor:pointer;font-family:inherit;font-size:10px;letter-spacing:.12em;padding:5px 14px;border-radius:0;transition:all .2s;image-rendering:pixelated}\n.tbtn:hover,.tbtn.on{background:#1a1a1a;color:#fff}\n\n.art-section{width:100%;max-width:680px;padding:28px 24px 0;display:flex;flex-direction:column;align-items:center;gap:14px}\n.art-img{max-width:100%;max-height:380px;object-fit:contain;border-radius:0}\n.art-ph{width:100%;height:200px;background:#f0ede6;display:flex;align-items:center;justify-content:center;border-radius:4px}\n.art-ph-text{font-size:28px;font-style:italic;color:#ddd;font-weight:300}\n.art-label{text-align:center}.art-title{font-size:16px;font-style:italic;font-weight:400}.art-meta{font-size:10px;color:#aaa;letter-spacing:.06em;margin-top:3px}\n\n.panel{width:100%;max-width:680px;padding:0 24px;overflow:hidden;transition:max-height .3s ease,opacity .3s ease;max-height:0;opacity:0}\n.panel.on{max-height:200px;opacity:1;padding-top:14px}\n.bio-card{background:#f8f6f2;border-radius:8px;padding:16px 20px;font-size:14px;line-height:1.8;color:#555;font-style:italic}\n.inv-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}\n.inv-label{font-size:10px;color:#aaa;letter-spacing:.1em;margin-right:4px}\n.inv-opt{border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;padding:4px;transition:transform .15s}.inv-opt:hover{transform:scale(1.1)}\n.inv-face{width:40px;height:40px;border-radius:50%;overflow:hidden;border:1.5px solid #ddd;transition:border-color .2s}.inv-opt:hover .inv-face{border-color:#1a1a1a}\n.inv-face img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}\n.inv-nm{font-size:9px;color:#888;font-family:inherit}\n\n.speakers{display:flex;justify-content:center;padding:10px 0}\n.sp-av{width:42px;height:42px;border-radius:50%;overflow:hidden;border:2px solid #fafafa;margin-left:-10px;image-rendering:pixelated}.sp-av:first-child{margin-left:0}\n.sp-av img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}\n\n.topics{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;padding:4px 24px}\n.tp{background:#fff;border:1px solid #e8e8e8;color:#aaa;font-family:inherit;font-size:11px;font-style:italic;padding:6px 14px;cursor:pointer;transition:all .2s;border-radius:16px}\n.tp:hover,.tp.on{border-color:#1a1a1a;color:#1a1a1a}\n\n.chat-area{width:100%;max-width:680px;padding:20px 24px 0;flex:1;overflow-y:auto}\n.chat-in{display:flex;flex-direction:column;gap:14px;padding-bottom:16px}\n.sts{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:8px 0}\n.st{background:#fff;border:2px solid #1a1a1a;color:#888;font-family:inherit;font-size:13px;padding:9px 16px;cursor:pointer;transition:all .2s;border-radius:0;image-rendering:pixelated}.st:hover{background:#1a1a1a;color:#fff}\n.sys-msg{text-align:center;font-size:11px;color:#ccc;font-style:italic;padding:8px 0}\n\n.mu{display:flex;justify-content:flex-end;align-items:flex-end;gap:8px}\n.mu-av{width:28px;height:28px;border-radius:50%;background:#1a1a1a;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;font-style:italic}\n.mu-b{background:#1a1a1a;color:#fff;font-size:14px;padding:12px 16px 18px;max-width:70%;line-height:1.6;border:3px solid #1a1a1a;border-radius:0;image-rendering:pixelated}\n.ma{display:flex;gap:8px;align-items:flex-end}\n.ma-av{width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;image-rendering:pixelated}\n.ma-av img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}\n.ma-r{display:flex;flex-direction:column;gap:2px;max-width:72%}\n.ma-who{font-size:9px;color:#aaa;letter-spacing:.1em;margin-left:6px}\n.ma-b{background:#fff;color:#1a1a1a;font-size:16px;padding:14px 18px 20px;line-height:1.8;font-weight:300;border:3px solid #1a1a1a;border-radius:0;image-rendering:pixelated;position:relative}\n@keyframes fi{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}\n.mu,.ma{animation:fi .28s ease}\n.dots{display:flex;gap:5px;margin-left:44px;padding:4px 0}\n.dot{width:5px;height:5px;border-radius:50%;animation:bl 1.4s infinite}\n.dot:nth-child(2){animation-delay:.2s}.dot:nth-child(3){animation-delay:.4s}\n@keyframes bl{0%,70%,100%{opacity:.25}35%{opacity:1}}\n\n.ib{width:100%;max-width:680px;padding:12px 24px 28px;display:flex;gap:10px;align-items:center;flex-shrink:0}\n.inp{flex:1;border:2px solid #1a1a1a;border-radius:0;background:#fff;font-size:15px;font-family:inherit;color:#1a1a1a;padding:11px 18px;outline:none;image-rendering:pixelated}\n.inp::placeholder{color:#ccc}\n.sb{font-size:10px;letter-spacing:.16em;font-family:inherit;color:#fff;background:#1a1a1a;border:2px solid #1a1a1a;padding:11px 20px;border-radius:0;cursor:pointer;transition:opacity .2s;white-space:nowrap;image-rendering:pixelated}\n.sb:disabled{opacity:.15;cursor:default}\n\n/* ROOM */\n.room-label{font-size:10px;letter-spacing:.22em;text-align:center;padding:10px 0 0;opacity:.45;text-transform:uppercase}\n\n/* REACTIONS */\n.reacts{display:flex;gap:6px;margin-left:44px;flex-wrap:wrap;padding-top:2px}\n.rbtn{background:none;padding:4px 12px;border-radius:0;image-rendering:pixelated;font-family:inherit;font-size:11px;font-style:italic;cursor:pointer;transition:all .2s;opacity:.45}\n.rbtn:hover{opacity:1}\n\n/* COLLECTIVE CARD */\n.card-coll{border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;padding:8px;transition:transform .2s}\n.card-coll:hover{transform:translateY(-6px)}\n.face-coll{width:90px;height:90px;border-radius:50%;border:2px dashed #ccc;display:flex;align-items:center;justify-content:center;transition:all .25s;background:#fafafa}\n.card-coll:hover .face-coll{border-color:#1a1a1a;box-shadow:3px 3px 0 #ccc}\n\n/* ABOUT */\n.about{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 32px;max-width:580px;margin:0 auto;gap:24px}\n.about-t{font-size:28px;font-style:italic;font-weight:300;text-align:center}\n.about-body{font-size:15px;line-height:2;color:#666;text-align:center;font-style:italic}\n.about-sig{font-size:12px;color:#bbb;letter-spacing:.12em}\n\n/* COLLECTIVE */\n.coll{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 24px;position:relative}\n.cl{font-size:10px;letter-spacing:.3em;color:#aaa;text-transform:uppercase;margin-bottom:36px}\n.nw{height:300px;overflow:hidden;width:210px;text-align:center;mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent)}\n.ns{animation:sup 55s linear infinite;display:flex;flex-direction:column;gap:22px;padding:36px 0}\n@keyframes sup{0%{transform:translateY(0)}100%{transform:translateY(-50%)}}\n.sn{font-size:15px;color:#666;letter-spacing:.05em;font-style:italic;font-weight:300}\n.cft{margin-top:40px;font-size:13px;color:#bbb;letter-spacing:.14em;font-style:italic}\n";
 
 export default function App() {
   const [view, setView] = useState("gal");
@@ -376,7 +156,7 @@ export default function App() {
 
       setBusy(true);
       try {
-        const r = await fetch("https://api.anthropic.com/v1/messages", {
+        const r = await fetch("/api/chat", {
           method:"POST",
           headers:{"Content-Type":"application/json"},
           body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:300,system:sys,messages:apiMsgs}),
@@ -401,7 +181,7 @@ export default function App() {
     if (view === "chat" && guests.length === 0) {
       setBusy(true);
       try {
-        const r = await fetch("https://api.anthropic.com/v1/messages",{
+        const r = await fetch("/api/chat",{
           method:"POST",headers:{"Content-Type":"application/json"},
           body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:500,system:cur.p,messages:hist.filter(m=>m.role!=="system")}),
         });
@@ -418,7 +198,7 @@ export default function App() {
       setBusy(true);
       try {
         const transcript = buildTranscript(hist);
-        const r = await fetch("https://api.anthropic.com/v1/messages",{
+        const r = await fetch("/api/chat",{
           method:"POST",headers:{"Content-Type":"application/json"},
           body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:400,system:sys,messages:[{role:"user",content:transcript}]}),
         });
@@ -620,3 +400,4 @@ export default function App() {
       )}
     </>
   );
+}
