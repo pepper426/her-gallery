@@ -56,7 +56,7 @@ export default async function handler(req, res) {
     const data = await response.json();
 
     // 把 Gemini 的返回格式转换成前端期望的格式
-    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text || '……';
+    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text || JSON.stringify(data);
 
     res.status(200).json({
       content: [{ type: 'text', text: text }]
